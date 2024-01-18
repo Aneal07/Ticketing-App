@@ -20,10 +20,12 @@ const TicketCard = () => {
       <div className='flex-grow'></div>
       <div className='flex mt-2'>
         <div flex flex-col>
-            <p>18/01/2024 9:54 PM</p>
+            <p className='text-xs my-1'>18/01/2024 9:54 PM</p>
         <ProgressDisplay/>
         </div>
-     <StatusDisplay/>
+        <div className='ml-auto flex items-end'>
+        <StatusDisplay/>
+        </div>    
       </div>  
     </div>
   )
