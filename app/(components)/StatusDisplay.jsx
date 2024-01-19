@@ -6,7 +6,7 @@ const StatusDisplay = ({ status }) => {
         color = "bg-green-500";
         return color;
       case "started":
-        color = "bg-yellow-500";
+        color = "bg-yellow-200";
         return color;
       case "not started":
         color = "bg-orange-500";
@@ -18,7 +18,7 @@ const StatusDisplay = ({ status }) => {
   };
   return (
     <span
-      className={`inline-block  rounded-full px-2 py-1 text-xs font-semibold text-white-500 ${getColor(
+      className={`inline-block  rounded-full px-2 py-1 text-xs font-semibold text-gray-700 ${getColor(
         status
       )}`}
     >

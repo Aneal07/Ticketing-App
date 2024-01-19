@@ -138,8 +138,8 @@ const router = useRouter()
                   <select name="status"
                    value={formData.status} 
                    onChange={handleChange}>
-                    <option value="not started">Not Started</option>
-                    <option value=" started"> Started</option>
+                    <option value="started">Started</option>
+                    <option value="not started">Not Started</option>                   
                     <option value="done">Done</option>
                    </select>
                    <input type="submit" className='btn' value="Create Ticket" />
